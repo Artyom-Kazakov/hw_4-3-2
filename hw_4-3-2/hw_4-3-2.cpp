@@ -22,7 +22,7 @@ public:
 
 	Counter() {}
 
-	Counter(int& count_input) {
+	Counter(int count_input) {
 		count = count_input;
 	}
 
@@ -30,7 +30,7 @@ public:
 		return count;
 	}
 
-	void set_count(int& count_input) {
+	void set_count(int count_input) {
 		count = count_input;
 	}
 
